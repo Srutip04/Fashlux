@@ -8,8 +8,8 @@ import ShopPage from "./pages/shop/shop.component";
 
 function App() {
   return (
-    <div className="App">
-      <HomePage />
+    <div>
+      {/* <HomePage /> */}
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/shop" component={ShopPage} />
